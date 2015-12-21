@@ -5,6 +5,7 @@ delimeter = 'x'
 #read the first line
 currentLine = f.readline()
 totalArea = 0
+totalRibbon = 0
 
 while (currentLine != '' ):
     length = 0
@@ -19,6 +20,10 @@ while (currentLine != '' ):
     side2 = 0
     side3 = 0
     smallestSide = 0
+
+    smallestPerimeter = 0
+    cubicVolume = 0
+    presentRibbon = 0
 
     #parse the text for values
 
@@ -51,10 +56,24 @@ while (currentLine != '' ):
     #add to the total area
     totalArea += area
 
+    #caludulate ribbon length
+    #find the two smallest values
+    sides = [length, width, height]
+    sides.sort()
+    smallestPerimeter = 2*sides[0] + 2*sides[1]
+    print 'smallestPerimeter = ' + str(smallestPerimeter)
+    cubicVolume = length * width * height
+
+    presentRibbon = smallestPerimeter + cubicVolume
+    print 'presentRibbon = ' + str(presentRibbon)
+
+    totalRibbon += presentRibbon
+
     #read the next line
     currentLine = f.readline()
 
 print 'totalArea =' + str(totalArea)
+print 'totalRibbon = ' + str(totalRibbon)
 
 
 #calculate square feet of each side and store the smallest
