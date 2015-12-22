@@ -17,8 +17,8 @@ while( answerNotFound ):
     tempText += str(counter)
     print 'tempText = ' + tempText
     m.update( tempText )
-    print m.hexdigest()[:5]
-    if( str(m.hexdigest())[:5] == '00000'):
+    print m.hexdigest()[:6]
+    if( str(m.hexdigest())[:6] == '000000'):
         answerNotFound = 0
         print 'Final Answer Hex = ' + str(m.hexdigest())
         print 'Final Answer = ' + str(counter)
