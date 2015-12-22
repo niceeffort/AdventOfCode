@@ -9,7 +9,7 @@ y=0
 xValues = []
 yValues = []
 
-map = {'count' : 7};
+map = { '0,0' : 1 }
 
 for char in range(0,len(text)):
     if (text[char] == '^'):
@@ -23,9 +23,15 @@ for char in range(0,len(text)):
     xValues.append(x)
     yValues.append(y)
 
+    pair = str(x) + ',' + str(y)
+    if (pair in map):
+        print 'pair exists'
+        map[pair] += 1
+    else:
+        map[pair] = 1
+
 print xValues
 print yValues
 
-    #Create a dictionary and count pairs
-    dict[ x,y ] += 1
-    print dict
+#Create a dictionary and count pairs
+print len(map)
