@@ -59,7 +59,10 @@ for next_move in movement:
     distance_traveled[direction_vec[0]] += next_move[1]*direction_vec[1]
     print distance_traveled
 
+
 print distance_traveled
+total_distance = abs(distance_traveled[0]) + abs(distance_traveled[1])
+print 'total_distance = ' + str(total_distance)
 
 #Store x,y values
 
