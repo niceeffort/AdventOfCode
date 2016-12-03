@@ -24,6 +24,7 @@ location_map = []
 
 direction = 'NORTH'
 duplicate_found = 0
+first_duplicate = []
 for next_move in movement:
     if direction == 'NORTH':
         if next_move[0] == 0:
@@ -50,13 +51,13 @@ for next_move in movement:
     #print distance_traveled
 
     #look for existing position
-    if distance_traveled in location_map:
-        print 'location_found'
-        print distance_traveled
-        duplicate_found = 1
-
-    if duplicate_found:
-        break
+    if duplicate_found == 0:
+        if distance_traveled in location_map:
+            print 'location_found'
+            print distance_traveled
+            first_duplicate = [distance_traveled[0],distance_traveled[1]]
+            print 'first_duplicate' + str(first_duplicate)
+            duplicate_found = 1
 
     location_map.append([distance_traveled[0],distance_traveled[1]])
     print 'loc_map' + str(location_map)
@@ -66,4 +67,9 @@ print distance_traveled
 total_distance = abs(distance_traveled[0]) + abs(distance_traveled[1])
 print 'total_distance = ' + str(total_distance)
 print location_map
+
+print 'first_duplicate' + str(first_duplicate)
+duplicate_distance = abs(first_duplicate[0]) + abs(first_duplicate[1])
+print 'duplicate_distance = ' + str(duplicate_distance)
+
 
