@@ -13,58 +13,42 @@ print directions
 print movement
 
 #Store movement direction axis and direction [axis, direction]
-direction_vec = [1,1]
-direction_map = [['NORTH', [1,1]],
-                 ['SOUTH', [1,-1]],
-                 ['EAST',  [0,1]],
-                 ['WEST',  [0,-1]]]
+direction_map = {'NORTH':[1,1],
+                 'SOUTH':[1,-1],
+                 'EAST': [0,1],
+                 'WEST':[0,-1]}
 
 #distance traveled [x,y]
 distance_traveled = [0,0]
 
-last_direction = 'NORTH'
+direction = 'NORTH'
 for next_move in movement:
-    if last_direction == 'NORTH':
+    if direction == 'NORTH':
         if next_move[0] == 0:
-            direction_vec = [0,-1]
-            last_direction = 'WEST'
+            direction = 'WEST'
         else:
-            direction_vec = [0,1]
-            last_direction = 'EAST'
-    elif last_direction == 'SOUTH':
+            direction = 'EAST'
+    elif direction == 'SOUTH':
         if next_move[0] == 0:
-            direction_vec = [1,-1]
-            last_direction = 'EAST'
+            direction = 'EAST'
         else:
-            direction_vec = [0,-1]
-            last_direction = 'WEST'
-    elif last_direction == 'EAST':
+            direction = 'WEST'
+    elif direction == 'EAST':
         if next_move[0] == 0:
-            direction_vec = [1,1]
-            last_direction = 'NORTH'
+            direction = 'NORTH'
         else:
-            direction_vec = [1,-1]
-            last_direction = 'SOUTH'
-    elif last_direction == 'WEST':
+            direction = 'SOUTH'
+    elif direction == 'WEST':
         if next_move[0] == 0:
-            direction_vec = [1,-1]
-            last_direction = 'SOUTH'
+            direction = 'SOUTH'
         else:
-            direction_vec = [1,1]
-            last_direction = 'NORTH'
+            direction = 'NORTH'
 
-    #print distance_traveled[next_move[0]]
-    #print last_direction
-    #print direction_vec
-    distance_traveled[direction_vec[0]] += next_move[1]*direction_vec[1]
-    print distance_traveled
+    distance_traveled[direction_map[direction][0]] += next_move[1] * direction_map[direction][1]
+    #print distance_traveled
 
 
-print distance_traveled
+#print distance_traveled
 total_distance = abs(distance_traveled[0]) + abs(distance_traveled[1])
 print 'total_distance = ' + str(total_distance)
-
-#Store x,y values
-
-#Add x,y blocks
 
