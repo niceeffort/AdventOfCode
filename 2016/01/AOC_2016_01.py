@@ -1,4 +1,4 @@
-f = open('AOC_2016_01_input.txt')
+f = open('AOC_2016_02_input.txt')
 directions = f.readline()
 #Remove whitespace
 directions = directions.replace(" ","")
