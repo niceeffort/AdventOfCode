@@ -14,8 +14,13 @@
 #
 # In your puzzle input, how many of the listed triangles are possible?
 
-#def countTriangles(the_codes):
-
+def countTriangles(the_codes):
+    number_of_triangles = 0
+    for code in the_codes:
+        a,b,c = code
+        if( a + b > c and a + c > b and b + c > a ):
+            number_of_triangles += 1
+    return number_of_triangles
 
 #open the file
 f = open('AOC_2016_03_input.txt', 'r')
@@ -30,12 +35,7 @@ for code in code_strings:
     #split the stings and use map to convert to int
     code_list.append(map(int, code.split()))
 
-number_of_triangles = 0
-#count the valid triangles
-for code in code_list:
-    a,b,c = code
-    if( a + b > c and a + c > b and b + c > a ):
-        number_of_triangles += 1
+number_of_triangles = countTriangles(code_list)
 
 print 'Part 1: Number of triangles = ' + str(number_of_triangles)
 
@@ -52,3 +52,23 @@ print 'Part 1: Number of triangles = ' + str(number_of_triangles)
 # 202 402 602
 # 203 403 603
 # In your puzzle input, and instead reading by columns, how many of the listed triangles are possible?
+
+#Reconfigure the code list
+column_code_list = []
+
+#read three lines at a time
+list_pos = 0
+print 'starting parse'
+while list_pos < len(code_list):
+    for n in range(0,3):
+        column_code_list.append([code_list[list_pos][n],
+                                 code_list[list_pos + 1][n],
+                                 code_list[list_pos + 2][n]])
+    list_pos += 3
+
+#print column_code_list
+
+number_of_triangles = 0
+number_of_triangles = countTriangles(column_code_list)
+
+print 'Part 2: Number of triangles = ' + str(number_of_triangles)

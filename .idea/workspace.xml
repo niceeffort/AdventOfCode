@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64d65f98-b0b8-400e-8de9-b667978edc32" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2016/03/AOC_2016_03_input.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2016/02/AOC_2016_02.py" afterPath="$PROJECT_DIR$/2016/02/AOC_2016_02.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2016/03/AOC_2016_01.py" afterPath="$PROJECT_DIR$/2016/03/AOC_2016_01.py" />
     </list>
     <ignored path="AdventOfCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,41 +35,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AOC_2016_02.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AOC_2016_02.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2016/02/AOC_2016_02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.7327586">
+            <state vertical-scroll-proportion="0.0">
               <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AOC_2016_02_input.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2016/02/AOC_2016_02_input.txt">
+      <file leaf-file-name="AOC_2016_01.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2016/03/AOC_2016_01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="397" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="524" />
+            <state vertical-scroll-proportion="0.20862068">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AOC_2016_01_input.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2016/01/AOC_2016_01_input.txt">
+      <file leaf-file-name="AOC_2016_03_input.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2016/03/AOC_2016_03_input.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Advent_01.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2015/01/Advent_01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="1634" column="15" selection-start-line="1634" selection-start-column="15" selection-end-line="1634" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -112,6 +103,8 @@
         <option value="$PROJECT_DIR$/2016/02/AOC_2016_01_input.txt" />
         <option value="$PROJECT_DIR$/2016/02/AOC_2016_02_input.txt" />
         <option value="$PROJECT_DIR$/2016/02/AOC_2016_02.py" />
+        <option value="$PROJECT_DIR$/2016/03/AOC_2016_03_input.txt" />
+        <option value="$PROJECT_DIR$/2016/03/AOC_2016_01.py" />
       </list>
     </option>
   </component>
@@ -145,12 +138,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="AdventOfCode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdventOfCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdventOfCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -223,7 +235,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -255,24 +266,7 @@
       <recent name="I:\Projects\AdventOfCode\2016" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.AOC_2016_02">
-    <configuration default="false" name="Advent_04" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AdventOfCode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04/Advent_04.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.AOC_2016_01 (2)">
     <configuration default="false" name="Advent_05" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -337,6 +331,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AdventOfCode" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2016/02/AOC_2016_02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AOC_2016_01 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2016/03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AdventOfCode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2016/03/AOC_2016_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -464,19 +475,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Advent_04" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Advent_05" />
-      <item index="2" class="java.lang.String" itemvalue="Python.AOC_2016_01" />
-      <item index="3" class="java.lang.String" itemvalue="Python.AOC_2016_01 (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.AOC_2016_02" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Advent_05" />
+      <item index="1" class="java.lang.String" itemvalue="Python.AOC_2016_01" />
+      <item index="2" class="java.lang.String" itemvalue="Python.AOC_2016_01 (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.AOC_2016_02" />
+      <item index="4" class="java.lang.String" itemvalue="Python.AOC_2016_01 (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.AOC_2016_02" />
-        <item index="1" class="java.lang.String" itemvalue="Python.AOC_2016_01 (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.AOC_2016_01" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Advent_05" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Advent_04" />
+        <item index="0" class="java.lang.String" itemvalue="Python.AOC_2016_01 (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.AOC_2016_02" />
+        <item index="2" class="java.lang.String" itemvalue="Python.AOC_2016_01 (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.AOC_2016_01" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Advent_05" />
       </list>
     </recent_temporary>
   </component>
@@ -599,15 +610,28 @@
       <option name="project" value="LOCAL" />
       <updated>1480828129161</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Day 2, part 2">
+      <created>1480890031378</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1480890031378</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Day 3, part 1">
+      <created>1480912849895</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1480912849895</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1684" height="1017" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13968825" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13968825" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -617,7 +641,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995633" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -655,7 +678,9 @@
     <MESSAGE value="Part 2, finally got the right answer" />
     <MESSAGE value="Code cleanup" />
     <MESSAGE value="Day 2, part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 2, part 1" />
+    <MESSAGE value="Day 2, part 2" />
+    <MESSAGE value="Day 3, part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 3, part 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -670,6 +695,54 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/2016/01/AOC_2016_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2016/02/AOC_2016_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2016/02/AOC_2016_02_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="397" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="524" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2016/01/AOC_2016_01_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2015/01/Advent_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2016/01/AOC_2016_01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -867,14 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2016/01/AOC_2016_01_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2015/01/Advent_01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -891,6 +956,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2016/02/AOC_2016_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2016/01/AOC_2016_01_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2016/01/AOC_2016_01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -901,16 +982,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2016/02/AOC_2016_02_input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.11724138">
           <caret line="4" column="397" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="524" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2016/02/AOC_2016_02.py">
+    <entry file="file://$PROJECT_DIR$/2016/03/AOC_2016_03_input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7327586">
-          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1634" column="15" selection-start-line="1634" selection-start-column="15" selection-end-line="1634" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2016/03/AOC_2016_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20862068">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding />
         </state>
       </provider>
