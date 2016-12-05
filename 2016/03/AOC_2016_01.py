@@ -58,7 +58,6 @@ column_code_list = []
 
 #read three lines at a time
 list_pos = 0
-print 'starting parse'
 while list_pos < len(code_list):
     for n in range(0,3):
         column_code_list.append([code_list[list_pos][n],
